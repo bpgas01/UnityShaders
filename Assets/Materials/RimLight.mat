@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RimLight
-  m_Shader: {fileID: -6465566751694194690, guid: 65fe0f67ae2f6c94c922ce94ee154b5b, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: e8007b75e8fa09243914ac271b3f6bbe, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -38,6 +38,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - Texture2D_2B20363F:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_5556F191:
+        m_Texture: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -69,7 +73,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_35F3AB11: 0.76
     - Vector1_8B04C64B: 4.01
+    - Vector1_8D30F56A: 0.74
+    - Vector1_B13E912C: -0.65
+    - Vector1_DE6911A2: 0.04
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -93,7 +101,9 @@ Material:
     - _ZWrite: 1
     - rimPower_RIMSHADER: 4.6
     m_Colors:
+    - Color_5707E790: {r: 0, g: 0, b: 0, a: 0}
     - Color_91BB7377: {r: 1, g: 0, b: 0, a: 0}
+    - Color_DD3F27A7: {r: 0.7264151, g: 0.640753, b: 0.640753, a: 0}
     - Vector2_11DD6DB4: {r: 4, g: 4, b: 0, a: 0}
     - Vector2_A11E3642: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_C91EFCC8: {r: 0, g: 0, b: 0, a: 0}
